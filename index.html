@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="./Calculator_512.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+        integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="dark">
+
+    <div class="top__bg"></div>
+
+    <div class="calculator">
+
+        <div class="calculator__head">
+
+            <div class="head__left">
+                <p class="pp"></p>
+                <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+
+            <div class="head__right">
+                <div class="right__top">
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                    <i class="fa-solid fa-signal"></i>
+                </div>
+                <div class="right__bottom">
+                    <i class="fa-solid fa-rotate-left backIcon"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="calculator__top">
+            <input type="text" class="inputA" placeholder="0">
+        </div>
+
+        <div class="calculator__bottom">
+            <button data-value="C" class="btn secondKey ackey">C</button>
+            <button data-value="plus/minus" class="btn secondKey operatorKey">+/-</button>
+            <button data-value="%" class="btn secondKey operatorKey">%</button>
+            <button data-value="/" class="btn mainKey operatorKey">/</button>
+            <button class="btn numKey">7</button>
+            <button class="btn numKey">8</button>
+            <button class="btn numKey">9</button>
+            <button data-value="*" class="btn mainKey operatorKey">*</button>
+            <button class="btn numKey">6</button>
+            <button class="btn numKey">5</button>
+            <button class="btn numKey">4</button>
+            <button data-value="-" class="btn mainKey operatorKey">-</button>
+            <button class="btn numKey">1</button>
+            <button class="btn numKey">2</button>
+            <button class="btn numKey">3</button>
+            <button data-value="+" class="btn mainKey operatorKey">+</button>
+            <button class="btn mainKey"></button>
+            <button class="btn numKey">0</button>
+            <button class="btn numKey">.</button>
+            <button data-value="=" class="btn mainKey result-key">=</button>
+        </div>
+
+    </div>
+
+    <div class="theme">
+        <i class="fa-solid fa-circle-half-stroke theme_btn"></i>
+    </div>
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
