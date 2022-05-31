@@ -6,7 +6,11 @@ const numKeys = document.querySelectorAll('.numKey')
 const clearKey = document.querySelector(".ackey");
 const operatorKeys = document.querySelectorAll('.operatorKey')
 const themeBtn = document.querySelector('.theme');
+const backIcon = document.querySelector('.backIcon')
 
+backIcon.addEventListener('click', () => {
+    inputA.value = inputA.value.slice(0, -1);
+})
 
 const Time = document.querySelector('.pp');
 
